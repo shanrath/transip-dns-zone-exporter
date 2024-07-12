@@ -1,0 +1,12 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/php:8.2",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/composer:1": {}
+	}
+	//apt install libgmp-dev
+	//docker-php-ext-install gmp
+    //cp /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
+	//docker-php-ext-configure gmp
+	//docker-php-ext-enable gmp
+	//cd workdir && composer upgrade
+}
